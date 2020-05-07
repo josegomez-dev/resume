@@ -86,6 +86,10 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
+			#backgroung-resume-bg-image{
+				display: none;
+			}
+
 		html, body {
 			min-width: 320px;
 		}
@@ -1689,3 +1693,5 @@ input, select, textarea {
 			margin-left: 10px;
 			flex: 1;
 		}
+
+
