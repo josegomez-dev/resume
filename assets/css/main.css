@@ -1118,7 +1118,9 @@ input, select, textarea {
 
 
 		.profile-picture-icon {
-			width: 98%;
+			margin-top: 1px;
+			width: 112px;
+			height: 112px;
 			border-radius: 50%;
 		}
 
