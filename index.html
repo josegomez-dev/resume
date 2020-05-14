@@ -668,10 +668,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script>
-		setTimeout(function () {
-			document.getElementById('hidden-transition').style.display = 'none'
-		}, 500);
 		$(document).ready(function () {
+			setTimeout(function () {
+				document.getElementById('hidden-transition').style.display = 'none'
+			}, 1000);
 			if ($(".container_carru").html() != null) {
 				var objects = $(".container_carru #items img");
 				var items = $(".container_carru #items img").length - 1;
