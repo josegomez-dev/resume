@@ -132,13 +132,13 @@
 					</span>
 				</div>
 
-				<hr>
+				<br>
 
 				<div style="text-align:center;">
 					<a target="true" href="./Professional CV.pdf"><button>Download Resume (PDF)</button></a>
 				</div>	
 
-				<br><br>
+				<br>
 
 				<!-- <div class="container_carru">
 					<div id="actions">
@@ -163,15 +163,9 @@
 					</div>
 				</div> -->
 
-				<br>
-				<p style="text-align: center;">
-					<i>“La creatividad es inteligencia divirtiéndose”</i><br> <b>Albert Einstein</b>
+				<p id="testQuotes" style="text-align: center;">
+					lorem
 				</p>
-
-				<p style="text-align: center;">
-					❤️ &nbsp; Thanks for getting here! &nbsp; 🚀
-				</p>
-
 			</article>
 
 			<!-- Work -->
@@ -705,9 +699,26 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					$("#arrowleft").trigger("click");
 				});
 			}
+
+
+
+
+
+
+
+
+
+			var quotes = [
+				"The quick brown fox jumps over the lazy dog.",
+				"Look out! There are llamas!",
+				"No, really, don't get up.",
+				"Whatever",
+				"Etc."
+			];
+
+			var q = quotes[Math.floor(Math.random() * quotes.length)];
+			document.getElementById("testQuotes").innerHTML = q;
 		});
-
-
 	</script>
 </body>
 
